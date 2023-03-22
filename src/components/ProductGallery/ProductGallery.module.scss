@@ -1,0 +1,30 @@
+.gallery {
+	margin: 0 auto;
+	padding: 0 40px;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	
+	@apply flex  justify-between  max-w-[1500px] relative;
+
+	.carusel {
+		padding-top: 130px;
+	}
+
+	.arrowLeft {
+		position: absolute;
+		top: 30%;
+		left: -10px;
+		z-index: 99;
+		cursor: pointer;
+	}
+
+	.arrowRight {
+		position: absolute;
+		top: 30%;
+		right: -10px;
+		z-index: 99;
+		cursor: pointer;
+	}
+}

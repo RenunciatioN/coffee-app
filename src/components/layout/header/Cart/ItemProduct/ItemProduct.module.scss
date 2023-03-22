@@ -1,0 +1,16 @@
+.product {
+	@apply flex gap-10 items-center mt-4;
+	.name {
+		
+	}
+	.count {
+		margin-left: auto;
+	}
+
+	&:first-child {
+		margin-top: 0;
+	}
+	.quantity {
+		@apply flex gap-4 items-center;
+	}
+}

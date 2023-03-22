@@ -1,0 +1,61 @@
+.card {
+	@apply flex flex-col w-80 bg-[#ebe5df] rounded-3xl pl-10 pr-10 pb-8;
+	transition: all 0.3s ease-in-out;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+	height: 430px;
+
+	.carusel {
+		@apply flex justify-center relative;
+
+		img {
+			@apply -mt-28
+		}
+	}
+
+	h3 {
+		@apply capitalize text-2xl font-bold text-[#827f79]  mt-4 text-center;
+	}
+
+	ul {
+		@apply text-[#999897] mt-auto;
+
+		li {
+			@apply flex justify-between font-semibold mb-1; 
+
+			&:nth-child(3), &:nth-child(4) {
+				margin-left: 15px;
+			}
+		}
+	}
+
+	.sizeBtns{ 
+		@apply flex justify-between mt-auto;
+
+		.sizeBtn {
+			font-size: 12px;
+			padding: 2px 6px;
+			background-color: rgb(99, 99, 99);
+			border-radius: 6px;
+			color:#fff;
+		}
+		.activeSizeBtn {
+			background-color: #fff;
+			color: #000;	
+		}
+	}
+	
+
+	.toCart{ 
+		display: block;
+		width: 100%;
+		margin-top: 40px;
+	}
+
+
+
+	&:hover {
+		transform: translateY(-10px);
+	}
+
+	
+}

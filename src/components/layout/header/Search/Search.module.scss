@@ -1,0 +1,15 @@
+.search {
+	@apply relative w-2/6;
+
+	.searchIcon{ 
+		@apply absolute right-0 bottom-2  ;
+	}	
+	
+
+	&::before {
+		content: '';
+	
+		@apply bg-[#e4e3e3] opacity-50 pt-[140%] w-[140%] rounded-full absolute -top-[300px] -left-28 -z-10;
+
+	}
+}

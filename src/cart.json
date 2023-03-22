@@ -1,0 +1,42 @@
+[
+	{
+		"id": "1",
+		"name": "midnight mint mocha frappuccino",
+		"img": "/images/products/midnight-mint-mocha-frappuccino.png"
+	},
+	{
+		"id": "2",
+		"name": "Cinnamon Caramel Cream Cold Brew",
+		"img": "/images/products/CinnamonCaraCreamColdBrew.png"
+	},
+	{
+		"id": "3",
+		"name": "Starbucks® Cold Brew Coffee with Milk",
+		"img": "/images/products/ColdBrewCoffeewithMilk.png"
+	},
+	{
+		"id": "4",
+		"name": "Hot Chocolate",
+		"img": "/images/products/HotChocolate.png"
+	},
+	{
+		"id": "5",
+		"name": "Caramel Apple Spice",
+		"img": "/images/products/CaramelAppleSpice.png"
+	},
+	{
+		"id": "6",
+		"name": "Iced Black Tea",
+		"img": "/images/products/IcedBlackTea.png"
+	},
+	{
+		"id": "7",
+		"name": "Iced Royal English Breakfast Tea Latte",
+		"img": "/images/products/IcedRoyalEnglishBreakfastTeaLatte.png"
+	},
+	{
+		"id": "8",
+		"name": "Cold Brew Coffee",
+		"img": "/images/products/ColdBrewCoffee.png"
+	}
+]

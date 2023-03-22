@@ -1,0 +1,17 @@
+.wrapper {
+	text-align: end;
+	margin-bottom: 50px;
+	
+	h1 {
+		@apply text-[#588067] text-6xl font-black mb-7;
+	}
+
+	div {
+		@apply font-semibold text-gray-400 mb-2;
+	}
+
+	a {
+		@apply text-gray-400 uppercase font-semibold;
+		border-bottom: 2px solid #747575;
+	}
+}
